@@ -1,0 +1,8 @@
+{
+  "name": "Nativa | Productos Naturales y Bienestar",
+  "description": "Landing page profesional y moderna para el lanzamiento de NATIVA. Lo natural también puede transformar tu día. Productos artesanales, botánicos y saludables.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Fredoka', 'Poppins', sans-serif;
+  --font-fredoka: 'Fredoka', cursive, sans-serif;
+  --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Official Ñam Bocao! Palette */
+  --color-bocao-orange: #ff6b35;
+  --color-bocao-orange-hover: #e85925;
+  --color-bocao-yellow: #ffd166;
+  --color-bocao-yellow-dark: #f0bd46;
+  --color-bocao-dark: #2b2118;
+  --color-bocao-dark-soft: #3d3025;
+  --color-bocao-cream: #fff3df;
+  --color-bocao-cream-dark: #fae8cc;
+  --color-bocao-red: #e8483e;
+  --color-bocao-red-hover: #cf372e;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #fff3df;
+  color: #2b2118;
+  font-family: var(--font-sans);
+}
+
+/* Headings and brand display elements use Fredoka for playful fast food identity */
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbar matching Ñam Bocao */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #fff3df;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff6b35;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e8483e;
+}
